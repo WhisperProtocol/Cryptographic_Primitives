@@ -6,3 +6,8 @@ It includes various cryptographic primitives and protocols that helps in buildin
 2. MiMCSponge
 3. Pedersen
 4. Groth16
+
+## Installation
+
+- [Install Circom](https://docs.circom.io/getting-started/installation/)
+- Install `SnarkJS` using - `npm install -g snarkjs`
