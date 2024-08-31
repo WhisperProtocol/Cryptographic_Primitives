@@ -57,7 +57,7 @@ This directory provides a general overview of how circuits are created and used 
 
 - Remember this within any output file you generate:
 
-    ```json
+    ```javascript
         [
             "1",
             "23", // Output of the circuit
