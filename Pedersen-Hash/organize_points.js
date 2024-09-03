@@ -1,5 +1,5 @@
 var fs = require("fs")
-const points = require("./points2.json")
+const points = require("./points3.json")
 
 const main = () => {
     var coordinates = points
@@ -13,7 +13,7 @@ const main = () => {
         }
     }
 
-    fs.writeFileSync('P2.json', JSON.stringify(result, 0, 4))
+    fs.writeFileSync('P3.json', JSON.stringify(result, 0, 4))
 }
 
 main()
