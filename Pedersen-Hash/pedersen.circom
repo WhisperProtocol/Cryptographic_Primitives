@@ -1,7 +1,7 @@
 pragma circom 2.0.0;
 
-include "./utils/mux3.circom;"
-include "./utils/montgomery.circom;"
+include "./utils/mux3.circom";
+include "./utils/montgomery.circom";
 
 template Pedersen(n) {
     var P1[50][8][2] = [
@@ -5111,7 +5111,7 @@ template Pedersen(n) {
                 6953537625274851016528595286513548785106295371462057023153440992877840790786
             ]
         ]
-    ]
+    ];
 
     var BASIS[3][50][8][2] = [P1, P2, P3];
 
